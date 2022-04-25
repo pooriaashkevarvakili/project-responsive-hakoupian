@@ -1,0 +1,295 @@
+{
+  "cardDashboard": [{
+      "title": "امروز چهارشنبه",
+      "content": "25اسفند",
+      "color": "red-3",
+      "icon": "fa fa-calendar",
+      "colorIcon":"text-red-4"
+    },
+    {
+      "title": "ساعت ورود",
+      "content": "7:55",
+      "color": "blue-3",
+      "icon": "alarm",
+      "colorIcon":"text-blue-4"
+      
+    },
+    {
+      "title": "مانده مرخصی",
+      "content": "7روز",
+      "color": "red-3",
+      "icon": "fa fa-bell",
+      "colorIcon":"text-orange-4"
+    },
+    {
+      "title": "درصدپیشرفت تسک ها",
+      "content": "75درصد",
+      "color": "green-3",
+      "icon": "fa fa-chart-simple",
+      "colorIcon":"text-green-6"
+    }
+  ],
+  "Recentworks": [
+    {
+      "id":1,
+      "title":"دیزاین صفحه داشبوردهاکوپیان360",
+      "content":"از طرف سعید رحیمی",
+      "color":"blue-2",
+      "date":"5خرداد98"
+    },
+    {
+    
+      "id": 2,
+      "title": "تحقیق درمورد بخش میزکار",
+      "content": "ازطرف حسین وفایی",
+      "date": "2خرداد98",
+      "color": "text-red-5"
+    },
+    {
+      "id": 3,
+      "title": "دیزاین صفحات بخش جذب واستخدام",
+      "content": "ایجادشده توسط حسین مجیدی",
+      "date": "1خرداد",
+      "color": "text-green-5"
+    },
+    {
+      "id": 4,
+      "title": "دیزاین صفحه لاگین وثبت نام",
+      "content": "از طرف سعید رحیمی",
+      "date": "28اردیبهشت98",
+      "color": "text-orange-4"
+    }
+  ],
+  "Latestnotifications": [
+    {
+      "id":1,
+      "title":"شما سه تماس از دست رفته دارید",
+      "content":"2روزقبل",
+      "icon":"fa fa-phone",
+      "color":"red-2",
+      "colorIcon":"text-red-4"
+    },
+    
+    {
+      "id": 2,
+      "title": "درخواست مرخصی شما تایید شد",
+      "content": "1روزقبل",
+      "icon": "fa fa-calendar",
+      "color": "green-4",
+      "colorIcon":"text-green-6"
+    },
+    {
+      "id": 3,
+      "title": "یاداوری جلسه منابع انسانی",
+      "content": "20خرداد98",
+      "icon": "fa fa-bell",
+      "color": "blue-4",
+      "colorIcon":"text-blue-2"
+    },
+    {
+      "id": 4,
+      "title": "شما2ایمیل جدیددارید",
+      "content": "20خرداد98",
+      "icon": "mail",
+      "color": "red-4",
+      "colorIcon":"text-blue-2"
+    }
+  ],
+  "AddSettings": [
+
+    {
+      "id": 1,
+      "title": "متولدین امروز",
+      "icon": "fa fa-birthday-cake"
+    },
+    {
+      "id": 2,
+      "title": "آخرین کارها",
+      "icon": "fa fa-bars"
+
+    },
+    {
+      "id": 3,
+      "title": "انتخاب غذا",
+      "icon": "fas fa-hamburger"
+    },
+    {
+      "id": 4,
+      "title": "مشخصات پرسنلی",
+      "icon": "fa fa-user"
+    }
+
+  ],
+  "AddSettingsOne": [
+
+    {
+      "id": 1,
+      "title": "یادداشت",
+      "icon": "fa fa-file-lines"
+    },
+    {
+      "id": 2,
+      "title": "اعلان ها",
+      "icon": "fa fa-bell"
+
+    },
+    {
+      "id": 3,
+      "title": "پروژه ها",
+      "icon": "fas fa-list"
+    },
+    {
+      "id": 4,
+      "title": "ساعت",
+      "icon": "alarm"
+    }
+
+  ],
+  "hakupianButtonDropdown": [{
+      "id": 1,
+      "label": "حضوروغیاب",
+      "icon": "fa fa-dollar"
+    },
+    {
+      "id": 2,
+      "label": "حقوق مزایا",
+      "icon": "fa fa-gift"
+    },
+    {
+      "id": 3,
+
+      "label": "خدمات",
+      "icon": "fa fa-gift"
+    },
+    {
+      "id": 4,
+
+      "label": "ارزیابی",
+      "icon": "fa fa-arrow-trend-up"
+
+    },
+    {
+      "id": 5,
+      "label": "آموزش",
+      "icon": "fa fa-video"
+    },
+    {
+      "id": 6,
+      "label": "تنظیمات",
+      "icon": "fa fa-gear"
+    }
+  ],
+  "Birthday":[
+    {
+      "id":1,
+      "title":"پوریاوکیلی",
+      "content":"کارشناس نرم افزار",
+      "date":"5بهمن" 
+    },
+    {
+      "id":2,
+      "title":"شهربازی",
+      "content":"برنامه نویس",
+      "date":"25خرداد"
+    }
+  ],
+  "ButtonDropdownPage":[
+    {
+      "id":0,
+      "title":"علیرضاتهرانی",
+      "img":"https://s23.picofile.com/file/8449412092/image2.jpg"
+    },
+    {
+      "id":1,
+      "title":"پوریاوکیلی",
+      "img":"https://s17.picofile.com/file/8419817268/image3.jpg"
+    },
+    {
+      "id":2,
+      "title":"محمددلیری",
+      "img":"https://s23.picofile.com/file/8449412100/image4.png"
+    },
+    {
+      "id":3,
+      "title":"اشکان خورشیدی",
+      "img":"https://s22.picofile.com/file/8449412126/image6.png"
+    }
+  ],
+  "Desk":[
+  
+    {
+      "id":1,
+      "icon":"fab fa-telegram",
+      "title":"ارسال شده"
+    },
+    {
+      "id":2,
+      "icon":"fa fa-file-lines",
+      "title":"پیش نویس"
+    },
+    {
+      "id":3,
+      "icon":"fa fa-star",
+      "title":"پیام های منتخب"
+    },
+    {
+      "id":4,
+      "icon":"fa fa-box",
+      "title":"آرشیو"
+    },
+    {
+      "id":5,
+      "icon":"fa fa-trash",
+      "title":"حذف شده "
+    },
+    {
+      "id":6,
+      "icon":"fa fa-chart-simple",
+      "title":"دسته بندی"
+    }
+  ],
+  "CardSectionModal":[
+    {
+      "id":1,
+      "title":"پوریا وکیلی",
+      "img":"https://s23.picofile.com/file/8449412134/image7.png",
+      "date":"13:58",
+      "content":"با سلام به استیحضار می رسانم"
+    },
+    {
+      "id":2,
+      "title":"محمددلیری",
+      "img":"https://s23.picofile.com/file/8449412092/image2.jpg",
+      "date":"8:01",
+      "content":"با سلام به استیحضار می رسانم"
+    },
+    {
+      "id":3,
+      "title":"حسین صادقی",
+      "img":"https://s17.picofile.com/file/8419817268/image3.jpg",
+      "date":"14:01",
+      "content":"با سلام به استیحضار می رسانم"
+    },
+    {
+      "id":4,
+      "title":"ابراهیم صادقی",
+      "img":"https://s23.picofile.com/file/8449412100/image4.png",
+      "date":"14:01",
+      "content":"با سلام به استیحضار می رسانم"
+    },
+    {
+      "id":5,
+      "title":"وحید شکاری",
+      "img":"https://s23.picofile.com/file/8449412118/image5.png",
+      "date":"15:01",
+      "content":"با سلام به استیحضار می رسانم"
+    },
+    {
+      "id":6,
+      "title":"زینب امیری",
+      "img":"https://s22.picofile.com/file/8449412126/image6.png",
+      "date":"10:01",
+      "content":"با سلام به استیحضار می رسانم"
+    }
+  ]
+}

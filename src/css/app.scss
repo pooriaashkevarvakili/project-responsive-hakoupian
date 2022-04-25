@@ -1,0 +1,22 @@
+// app global css in SCSS form
+#center {
+
+  .q-icon:before,
+  .q-icon:after {
+
+    position: relative;
+
+    top: 5px;
+
+  }
+}
+.timeline{
+  h6{
+    font-size:1rem;
+  }
+}
+
+
+.q-field__messages > div {
+display: flex;
+}
