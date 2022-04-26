@@ -6,7 +6,7 @@
 
     <q-dialog v-model="alert">
       <q-card style="max-width: 500px; width: 500px; height: 800px">
-       <div dir="rtl">
+       <div >
 <q-icon
 size="2em"
 class="q-mr-sm q-mt-sm cursor-pointer" flat v-close-popup round dense

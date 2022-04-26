@@ -1,5 +1,5 @@
 <template>
-  <div dir="rtl" class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
+  <div  class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
     <q-card>
       <q-card-section>{{ $t("LatestNotifications") }}</q-card-section>
       <q-card-section v-for="item in store.Latestnotifications" :key="item.id">

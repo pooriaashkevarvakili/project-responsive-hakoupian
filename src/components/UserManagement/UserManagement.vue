@@ -1,18 +1,30 @@
 <template>
-  <div dir="rtl">
-    مدیریت کاربران
+  <div class="q-mr-sm q-mt-sm" dir="rtl">
+   {{$t('UserManagement')}}
   </div>
-  <div dir="rtl" class="flex justify-between">
-      <div>
-          1
+  <div  class="flex q-mt-sm justify-between">
+      <div dir="rtl" class="q-mr-sm">
+          <q-input filled :label="$t('Search')"/>
       </div>
-      <div>2</div>
+      <div>
+     <UserManagementModal/>
+      </div>
+  </div>
+  <div>
+    <TableUserManagement/>
   </div>
 </template>
 
 <script>
+import {defineAsyncComponent} from "vue";
 export default {
+  components: {
+    UserManagementModal: defineAsyncComponent(() =>import("./UserManagementModal/UserManagementModal.vue")),
+    TableUserManagement:defineAsyncComponent(() =>import("./TableUserManagement.vue"))
+  },
+setup() {
 
+}
 }
 </script>
 

@@ -1,5 +1,5 @@
 <template>
-  <div dir="rtl">دبیرخانه</div>
+  <div >دبیرخانه</div>
 </template>
 
 <script>

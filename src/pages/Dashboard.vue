@@ -1,5 +1,5 @@
 <template>
-  <div dir="rtl" class="row justify-between q-mt-sm">
+  <div  class="row justify-between q-mt-sm">
     <div class="q-mr-sm text-subtitle2">
       {{ $t("DearUser") }}
 

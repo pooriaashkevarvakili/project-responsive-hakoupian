@@ -1,5 +1,5 @@
 <template>
-  <div dir="rtl" class="row q-col-gutter-sm q-py-sm">
+  <div  class="row q-col-gutter-sm q-py-sm">
     <CardDashboardTwo />
     <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
       <q-card>

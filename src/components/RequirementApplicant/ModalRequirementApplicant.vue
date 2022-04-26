@@ -22,7 +22,7 @@
           <q-form @submit="onSubmit">
             <div class="q-pa-md">
               <div class="row">
-                <div class="col-12">
+                <div  class="col-12">
                   <q-input
                     filled
                     type="number"

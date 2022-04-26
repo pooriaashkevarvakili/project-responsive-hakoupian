@@ -5,7 +5,7 @@
     color="primary"
     :label="$t('userPerson')"
   >
-    <div dir="rtl" class="col">
+    <div  class="col">
       <div class="flex justify-center items-center">
         <div class="q-mt-xs q-ml-xs">
           <img src="image1.jpg" style="width=20px;height:50px" />

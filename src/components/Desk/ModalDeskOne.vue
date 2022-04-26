@@ -5,7 +5,7 @@
       {{ $t("Inbox") }}
       <q-dialog v-model="alert">
         <q-card
-          dir="rtl"
+        
           style="max-width: 700px; width: 1000px; height: 800px"
         >
           <q-icon
@@ -28,7 +28,7 @@
           <q-card-section>
             <div class="q-pa-md">
               <div class="row">
-                <div class="col-11">
+                <div dir="rtl" class="col-11">
                   <q-select
                     filled 
                     class="input-two"

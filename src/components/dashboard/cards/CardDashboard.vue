@@ -1,5 +1,5 @@
 <template>
-  <div dir="rtl" class="row q-col-gutter-sm q-py-sm">
+  <div class="row q-col-gutter-sm q-py-sm">
     <div
       v-for="(item, index) in store.cardDashboard"
       :key="index"

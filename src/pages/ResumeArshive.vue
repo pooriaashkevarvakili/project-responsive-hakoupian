@@ -1,5 +1,5 @@
 <template>
-  <div dir="rtl">ارشیورزومه</div>
+  <div >ارشیورزومه</div>
 </template>
 
 <script>

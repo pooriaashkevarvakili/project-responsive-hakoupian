@@ -16,7 +16,7 @@
         :width="250"
         :breakpoint="500"
         >
-              <q-list dir="rtl">
+              <q-list >
           <q-item
             v-for="(items, index) in item"
             :key="index"

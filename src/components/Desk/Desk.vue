@@ -1,5 +1,5 @@
 <template>
-  <div dir="rtl" class="q-col-gutter-sm q-py-sm">
+  <div  class="q-col-gutter-sm q-py-sm">
     <div class="row">
       <div class="col-6">
         <q-card style="width: 200px; height: 550px">

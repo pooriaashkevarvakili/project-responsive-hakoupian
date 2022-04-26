@@ -1,6 +1,6 @@
 <template>
   <div class="q-pa-md">
-    <q-form @submit="onSubmit" @reset="onReset" class="q-gutter-md">
+    <q-form dir="rtl" @submit="onSubmit" @reset="onReset" class="q-gutter-md">
       <div class="row">
         <div class="col-6">
           <q-select
@@ -10,7 +10,7 @@
             hide-selected
             fill-input
             :hint="$t('SelectJob')"
-            class="input-one"
+            
             :label="$t('WorkTitle')"
             lazy-rules
        popup-content-class="text-right"

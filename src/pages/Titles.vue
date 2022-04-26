@@ -1,12 +1,12 @@
 <template>
-  <div dir="rtl" class="q-mr-lg q-mt-sm">
+  <div  class="q-mr-lg q-mt-sm">
     <span>{{ $t("Titles") }}</span>
   </div>
-  <div dir="rtl" class="flex justify-between">
-    <div>
+  <div  class="flex q-mt-sm justify-between">
+    <div dir="rtl">
       <q-input
-        class="input-tweleve q-mr-lg"
-        style="max-width: 400px; width: 400px"
+        class=" q-mr-lg"
+       filled
         :label="$t('Search')"
       >
         <template v-slot:prepend>
@@ -16,7 +16,7 @@
     </div>
     <div>
       <q-btn class="bg-orange-4 text-white" icon="fa fa-plus"
-        >ایجاد عنوان جدید</q-btn
+        >{{$t('CreateNewTitle')}}</q-btn
       >
     </div>
   </div>

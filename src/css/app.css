@@ -64,3 +64,6 @@
     overflow: hidden;
     margin-right: -10px;
   }
+  html[dir="ltr"], [dir="ltr"] body, [dir="ltr"] #q-app {
+    direction: rtl;
+}

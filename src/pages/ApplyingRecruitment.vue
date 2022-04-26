@@ -1,5 +1,5 @@
 <template>
-  <div dir="rtl">
+  <div >
   <DeveloperAndroid/>
   <div class=" q-mr-sm">
    <q-icon size="1.8em" name="fa fa-building"/>

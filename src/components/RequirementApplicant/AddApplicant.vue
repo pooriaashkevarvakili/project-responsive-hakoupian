@@ -7,7 +7,7 @@
     </q-btn>
 
     <q-dialog maximized v-model="alert">
-        <div dir="rtl">
+        <div >
       <q-card style="max-width: 800px; width: 1000px; height: 800px">
   <q-btn  icon="close" class="q-mr-sm q-mt-sm" v-close-popup flat dense/>
 <TabApplicant/>
