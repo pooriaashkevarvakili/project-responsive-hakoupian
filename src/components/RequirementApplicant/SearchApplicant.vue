@@ -8,7 +8,7 @@
         use-input
         input-debounce="0"
           popup-content-class="text-right"
-        class="  input-three"
+       
         :label="$t('Search')"
         :options="options"
         @filter="filterFn"

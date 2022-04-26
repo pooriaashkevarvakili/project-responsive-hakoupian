@@ -17,6 +17,10 @@ const routes: RouteRecordRaw[] = [
         component: () => import("components/Desk/Desk.vue")
       },
     {
+      path:'/dryCleaning',
+      component: () => import("pages/DryCleaning.vue")
+    },
+    {
       path:'/userManagement',
       component: () => import("pages/UserManagement.vue")
     },

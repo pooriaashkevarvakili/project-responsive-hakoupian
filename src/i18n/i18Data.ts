@@ -158,6 +158,12 @@ Status:"وضعیت",
 SpecifyStatus:"وضعیت مشخص کنید",
 StatusDetermined:"وضعیت مشخص شد",
 AddNewUser:"افزودن کاربرجدید",
-CreateNewTitle:"ایجاد عنوان جدید"
+CreateNewTitle:"ایجاد عنوان جدید",
+DryCleaningManagement:"مدیریت خشکشویی",
+AddLaundry:"افزودن خشک شویی جدید",
+DryCleaningTitle:"عنوان خشک شویی",
+SpecifyLaundry:"عنوان خشک شویی مشخص کنید",
+LaundrySpecified:"عنوان خشک شویی مشخص شد",
+CityName:"نام شهر"
   }
 };

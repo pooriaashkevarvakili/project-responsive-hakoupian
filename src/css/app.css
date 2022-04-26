@@ -67,3 +67,6 @@
   html[dir="ltr"], [dir="ltr"] body, [dir="ltr"] #q-app {
     direction: rtl;
 }
+.q-app{
+  direction:rtl
+}

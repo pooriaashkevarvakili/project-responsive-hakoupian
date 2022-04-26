@@ -37,6 +37,12 @@ export default {
         lable:t('UserManagement'),
         icon:'fa fa-user'
       },
+       {
+        id:3,
+        to:'/dryCleaning',
+        lable:t('DryCleaningManagement'),
+        icon:'fa fa-car'
+      },
     ])
     return{
       SystemManagement,t

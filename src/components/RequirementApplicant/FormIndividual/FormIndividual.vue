@@ -1,6 +1,6 @@
 <template>
-  <div class="q-pa-md">
-    <q-form dir="rtl" @submit="onSubmit" @reset="onReset" class="q-gutter-md">
+  <div dir="rtl" class="q-pa-md">
+    <q-form  @submit="onSubmit" @reset="onReset" class="q-gutter-md">
       <div class="row">
         <div class="col-6">
           <q-select
