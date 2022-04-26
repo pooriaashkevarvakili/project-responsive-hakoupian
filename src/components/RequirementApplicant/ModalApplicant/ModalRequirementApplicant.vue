@@ -45,7 +45,7 @@ import { defineAsyncComponent } from "vue";
 export default {
   components: {
     DropdownRequirementApplicant: defineAsyncComponent(() =>
-      import("../DropdownRequirementApplicant.vue")
+      import("../ModalRequirementApplicant.vue")
     ),
     ConfirmationInterview: defineAsyncComponent(() =>
       import("../ConfirmationInterview.vue")

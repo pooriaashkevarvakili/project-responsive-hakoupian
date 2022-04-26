@@ -37,8 +37,6 @@
   .circle{
     height: 40px;
     display:flex;
-    
-  
     justify-content: center;
     width: 40px;
     background-color: #bbb;

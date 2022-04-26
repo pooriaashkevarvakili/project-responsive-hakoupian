@@ -137,6 +137,10 @@ RecordEvaluation:"ثبت ارزیابی مستقیم",
 RejectedEmployer:"ردشده توسط کارفرما",
 AccountingManager:"مدیرحسابداری",
 Appeal:"تجدیدنظر",
-UserManagement:"مدیریت کاربران"
+UserManagement:"مدیریت کاربران",
+WriteScore:"امتیاز بنویسید",
+ScoreDetermined:"امتیاز مشخص شد",
+SpecifyApplicant:"نظر متقاضی مشخص شود" ,
+ApplicantDetermined:"نظرمتقاضی مشخص شد"
   }
 };
