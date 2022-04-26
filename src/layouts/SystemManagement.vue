@@ -1,41 +1,49 @@
 <template>
-     <q-expansion-item
-            icon="fa fa-gear"
-            class="text-subtitle2"
-            :label="$t('SystemManagement')"
-          >
-            <q-list class="q-pl-lg"> </q-list>
-            <q-list class="q-pl-lg">
-              <q-item to="/titles" active-class="q-item-no-link-highlighting">
-                <q-item-section avatar>
-                  <q-icon name="fa fa-file-lines" />
-                </q-item-section>
-                <q-item-section>
-                  <q-item-label class="text-subtitle2">{{
-                    $t("Titles")
-                  }}</q-item-label>
-                </q-item-section>
-              </q-item>
-              <q-item to="/userManagement" active-class="q-item-no-link-highlighting">
-                <q-item-section avatar>
-                  <q-icon name="fa fa-person" />
-                </q-item-section>
-                <q-item-section>
-                  <q-item-label class="text-subtitle2">{{
-                    $t("UserManagement")
-                  }}</q-item-label>
-                </q-item-section>
-              </q-item>
-            </q-list>
-          </q-expansion-item>
+  <q-expansion-item
+   
+    icon="fa fa-gear"
+    :label="$t('SystemManagement')"
+  >
+    <q-list class="q-pl-lg">
+      <q-item v-for="items in SystemManagement" :key="items.id" :to="items.to" active-class="q-item-no-link-highlighting">
+        <q-item-section avatar>
+         <q-icon :name="items.icon"></q-icon>
+        </q-item-section>
+        <q-item-section>
+          <q-item-label class="iran-sans"> {{items.lable}}</q-item-label>
+        </q-item-section>
+      </q-item>
+    </q-list>
+  </q-expansion-item>
 </template>
 
-<script>
+<script >
+import {useI18n} from 'vue-i18n'
+import {reactive} from "vue";
 export default {
-
+  name: "SystemManagement",
+  setup(){
+    const {t}=useI18n()
+    const SystemManagement=reactive([
+      {
+        id:1,
+        to:'/titles',
+        lable:t('Titles'),
+        icon:'fa fa-file-lines'
+      },
+      {
+        id:2,
+        to:'/userManagement',
+        lable:t('UserManagement'),
+        icon:'fa fa-user'
+      },
+    ])
+    return{
+      SystemManagement,t
+    }
+  }
 }
 </script>
 
-<style>
-
+<style scoped>
 </style>
