@@ -7,7 +7,7 @@
       <span class="q-mr-sm">{{ $t("AddLaundry") }}</span>
     </q-btn>
     <q-dialog v-model="alert">
-      <q-card style="max-width: 500px; width: 500px; height: 430px">
+      <q-card style=" width: 500px; height: 350px">
         <div >
           <q-icon
             size="2em"
@@ -18,11 +18,11 @@
             dense
             name="close"
           />
-          <q-form dir="rtl" @submit="onSubmit">
-            <div class="q-pa-md">
-              <div class="row">
-              <div class="col-6">
-              <q-input filled
+          <q-form v-model="form" dir="rtl" @submit="onSubmit">
+           <div class="q-pa-md">
+           <div class="row">
+            <div class='col-6'>
+                <q-input filled
                  
             v-model="dryCleaningTitle"
             :label="$t('DryCleaningTitle')"
@@ -33,7 +33,8 @@
               (val) => (val > 0 && val < 100) || $t('LaundrySpecified'),
             ]"
               ></q-input>
-              </div>
+            </div>
+             <div class='col-6'>
                   <div class="col-6">
                  <q-input filled
                 class="q-mr-xs"
@@ -46,26 +47,25 @@
               (val) => (val > 0 && val < 100) || $t('NameSpecified'),
             ]"
                  ></q-input> 
-              </div>
-                <div class="col-12">
-                  <q-btn
-                    class="full-width q-mt-lg bg-red-4 text-white"
-                    type="submit"
-                    :label="$t('Registration')"
-                  />
-                </div>
-              </div>
-            </div>
+             </div>
+           </div>
+           </div>
+           </div>
+          <ModalAddressLaundry/>
+        <q-btn class="full-width q-mt-lg bg-red-4 text-white">
+          {{$t('Registration')}}
+        </q-btn>
           </q-form>
         </div>
       </q-card>
     </q-dialog>
-
-    
 </template>
 <script>
-    import {ref} from "vue";
+    import {ref,defineAsyncComponent} from "vue";
 export default {
+  components: {
+    ModalAddressLaundry:defineAsyncComponent(() =>import("./ModalAddressLaundry.vue"))
+  },
 setup() {
     const dryCleaningTitle=ref(null)
     const city=ref(null)
@@ -73,7 +73,7 @@ setup() {
         dryCleaningTitle,
         alert: ref(false),
             onSubmit() {
-        if (accept.value !== true) {
+        if (form.value !== true) {
           q.notify({
             color: "red-5",
             textColor: "white",
@@ -93,7 +93,5 @@ setup() {
 }
 }
 </script>
-
 <style>
-
 </style>

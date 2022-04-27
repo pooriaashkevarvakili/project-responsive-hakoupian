@@ -164,6 +164,19 @@ AddLaundry:"افزودن خشک شویی جدید",
 DryCleaningTitle:"عنوان خشک شویی",
 SpecifyLaundry:"عنوان خشک شویی مشخص کنید",
 LaundrySpecified:"عنوان خشک شویی مشخص شد",
-CityName:"نام شهر"
+CityName:"نام شهر",
+AddressRegistered:"هنوزآدرسی ثبت نشده است" ,
+AddressTitle:"عنوان آدرس",
+AddNewAddress:"افزودن آدرس جدید",
+SpecifyAddress:"عنوان آدرس مشخص کنید",
+AddressSpecified:"عنوان آدرس مشخص شد",
+Address:"آدرس",
+SpecifyFirstPhone:"تلفن اول مشخص کنید",
+FirstphoneIdentified:"تلفن اول مشخص شد",
+PhoneOne:"تلفن اول",
+SpecifyTwoPhone:"تلفن دوم مشخص کنید",
+TwophoneIdentified:"تلفن دوم مشخص شد",
+PhoneTwo:"تلفن دوم",
+AddNewLaundry:"افزودن خشکشویی جدید"
   }
 };
