@@ -43,6 +43,12 @@ export default {
         lable:t('DryCleaningManagement'),
         icon:'fa fa-car'
       },
+          {
+        id:4,
+        to:'/contentManagement',
+        lable:t('ContentManagement'),
+        icon:'fa fa-file-lines'
+      },
     ])
     return{
       SystemManagement,t

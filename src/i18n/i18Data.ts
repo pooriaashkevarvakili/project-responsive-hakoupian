@@ -177,6 +177,7 @@ PhoneOne:"تلفن اول",
 SpecifyTwoPhone:"تلفن دوم مشخص کنید",
 TwophoneIdentified:"تلفن دوم مشخص شد",
 PhoneTwo:"تلفن دوم",
-AddNewLaundry:"افزودن خشکشویی جدید"
+AddNewLaundry:"افزودن خشکشویی جدید",
+ContentManagement:"مدیریت محتوا"
   }
 };
