@@ -34,7 +34,7 @@
 import { CardSectionModalCounter } from "stores/CardSectionModal";
 export default {
   setup() {
-    
+     
     const store = CardSectionModalCounter();
     store.GetCardSectionModal();
     return {

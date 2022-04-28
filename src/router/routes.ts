@@ -29,7 +29,6 @@ const routes: RouteRecordRaw[] = [
       component: () => import("pages/UserManagement.vue")
     },
    
-      { path: "/mailRoom", component: () => import("pages/Mailroom.vue") },
      
 
       {

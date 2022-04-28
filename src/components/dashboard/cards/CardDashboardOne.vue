@@ -50,10 +50,10 @@ export default {
    
     const store = RecentworksCounter();
     store.getRecentworks();
-      
+   
     return {
       store,
-   
+
     };
   },
 };

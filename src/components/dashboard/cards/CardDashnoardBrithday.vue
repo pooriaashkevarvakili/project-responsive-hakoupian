@@ -25,12 +25,11 @@
 import { birthdayCounter } from "stores/Birthday";
 export default {
   setup() {
-    
+      
     const store = birthdayCounter();
     store.getBrithday();
     return { 
-      store
-
+store
        };
   },
 };

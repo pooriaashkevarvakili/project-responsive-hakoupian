@@ -65,11 +65,7 @@ export default {
         to: "/desk",
       },
 
-      {
-        to: "/mailRoom",
-        icon: "fa fa-person-booth",
-        name: t("Mailroom"),
-      },
+    
     ]);
     return {
       t,item,

@@ -93,7 +93,7 @@ export default {
   },
   setup() {
     const options = ref(stringOptions);
-  
+
     const store = DeskCounter();
     store.getDesks();
     return {

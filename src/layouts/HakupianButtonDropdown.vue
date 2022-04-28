@@ -25,7 +25,7 @@
       :icon="item.icon"
       size="6em"
       class="iran-sans text-blue-4"
-      dir="rtl"
+     
       :label="item.label"
     >
     </q-expansion-item>
@@ -49,7 +49,7 @@ export default {
   setup() {
     const store = hakupianButtonDropdownCounter();
     store.getHakupianButtonDropdown();
-     
+ 
     const q = useQuasar();
     const router=useRouter()
    const gotoSignUp=()=>{
@@ -61,7 +61,7 @@ export default {
     return { 
       q, 
     store,
-  
+
     gotoSignUp };
   },
 };

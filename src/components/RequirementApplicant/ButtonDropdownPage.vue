@@ -38,9 +38,11 @@ export default {
    
     const store = ButtonDropdownPageCounter();
     store.GetButtonDropdownPage();
+
+ 
     return {
       store,
-    
+   
     };
   },
 };

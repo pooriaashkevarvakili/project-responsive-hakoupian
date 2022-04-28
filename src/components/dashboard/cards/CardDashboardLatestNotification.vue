@@ -32,11 +32,11 @@ export default {
   setup() {
     const store = LatestnotificationsCounter();
     store.getlatestnotifications();
-
+ 
    
     return {
       store,
-      
+    
     };
   },
 };
