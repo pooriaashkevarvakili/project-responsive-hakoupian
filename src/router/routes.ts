@@ -30,10 +30,7 @@ const routes: RouteRecordRaw[] = [
     },
    
       { path: "/mailRoom", component: () => import("pages/Mailroom.vue") },
-      {
-        path: "/resumearshive",
-        component: () => import("pages/ResumeArshive.vue"),
-      },
+     
 
       {
         path: "/",

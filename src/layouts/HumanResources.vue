@@ -36,12 +36,7 @@ setup() {
          icon:"fa fa-file",
          content:t('ApplicantRequirement')
         },
-        {
-            id:1,
-            to:"/resumearshive",
-            icon:'fa fa-file-lines',
-            content:t('ResumeArshive')
-        }
+     
     ])
     return{t,HumanResources}
 }

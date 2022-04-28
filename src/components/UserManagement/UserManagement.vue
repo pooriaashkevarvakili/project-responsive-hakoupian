@@ -1,7 +1,9 @@
 <template>
-  <div class="q-mr-sm q-mt-sm" dir="rtl">
+<q-card class="bg-green-4 q-py-lg text-white text-h6">
+  <div class="q-mr-sm q-mt-sm flex justify-center" >
     {{ $t("UserManagement") }}
   </div>
+  </q-card>
   <div class="flex q-mt-sm justify-between">
     <div dir="rtl" class="q-mr-sm">
       <q-select

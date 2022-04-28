@@ -1,7 +1,9 @@
 <template>
-  <div  class="q-mr-lg q-mt-sm">
-    <span>{{ $t("Titles") }}</span>
+<q-card class='bg-green-4 text-white q-py-lg'>
+  <div  class="q-mr-lg q-mt-sm flex justify-center">
+    <span class="text-h6">{{ $t("Titles") }}</span>
   </div>
+  </q-card>
   <div  class="flex q-mt-sm justify-between">
     <div dir="rtl">
       <q-input

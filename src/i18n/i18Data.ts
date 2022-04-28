@@ -178,6 +178,13 @@ SpecifyTwoPhone:"تلفن دوم مشخص کنید",
 TwophoneIdentified:"تلفن دوم مشخص شد",
 PhoneTwo:"تلفن دوم",
 AddNewLaundry:"افزودن خشکشویی جدید",
-ContentManagement:"مدیریت محتوا"
+    ContentManagement: "مدیریت محتوا",
+    TitleDryCleaing: "عنوان خشک شویی",
+    TitleAddress: "عنوان آدرس",
+    Action: "عملیات",
+    Passive: "غیرفعال",
+    Active: "فعال",
+    Assistance:"معاونت"
+
   }
 };

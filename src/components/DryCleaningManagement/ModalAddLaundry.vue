@@ -1,7 +1,7 @@
 <template>
       <q-btn
       icon="fa fa-user-plus"
-      class="bg-red-4 q-mr-sm text-white"
+      class="bg-green-4 q-mr-sm text-white"
       @click="alert = true"
     >
       <span class="q-mr-sm">{{ $t("AddLaundry") }}</span>
