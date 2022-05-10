@@ -1,6 +1,6 @@
 <template>
   <div class="q-pa-md">
-    <div class="q-gutter-y-md" style="max-width: 600px">
+    <div class="q-gutter-y-md" >
       <q-tabs v-model="tab" class="text-teal" align="left">
         <q-tab name="mails" :label="$t('AddIndividual')" />
       </q-tabs>

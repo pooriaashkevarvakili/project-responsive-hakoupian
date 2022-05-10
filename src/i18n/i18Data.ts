@@ -184,7 +184,8 @@ AddNewLaundry:"افزودن خشکشویی جدید",
     Action: "عملیات",
     Passive: "غیرفعال",
     Active: "فعال",
-    Assistance:"معاونت"
-
+    Assistance:"معاونت",
+    UploadFile: "آپلود فایل",
+UploadImage:"آپلود عکس"
   }
 };
