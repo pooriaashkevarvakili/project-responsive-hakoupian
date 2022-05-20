@@ -15,25 +15,16 @@
           <TabTwo />
         </q-tab-panel>
         <q-tab-panel name="Assessment">
-          <TabThree/>
+          <TabThree />
         </q-tab-panel>
       </q-tab-panels>
     </div>
   </div>
 </template>
-<script>
+<script setup>
 import { ref, defineAsyncComponent } from "vue";
-
-export default {
-  components: {
-    TabOne: defineAsyncComponent(() => import("./TabOne.vue")),
-    TabTwo:defineAsyncComponent(()=>import('./TabTwo.vue')),
-    TabThree:defineAsyncComponent(() => import('./TabThree.vue'))
-  },
-  setup() {
-    return {
-      tab: ref("mails"),
-    };
-  },
-};
+const TabOne = defineAsyncComponent(() => import("./TabOne.vue"))
+const TabTwo = defineAsyncComponent(() => import('./TabTwo.vue'))
+const TabThree = defineAsyncComponent(() => import('./TabThree.vue'))
+const tab = ref("mails")
 </script>

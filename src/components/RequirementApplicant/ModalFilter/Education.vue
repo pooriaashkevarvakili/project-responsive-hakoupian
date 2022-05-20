@@ -13,9 +13,7 @@
         <div class="column">
           <q-checkbox v-model="karshenasi">{{ $t("Expert") }}</q-checkbox>
           <q-checkbox v-model="doktra">{{ $t("Doctorate") }}</q-checkbox>
-          <q-checkbox v-model="karshenasiArshad" class="iran-sans"
-            >{{$t('Masters')}}</q-checkbox
-          >
+          <q-checkbox v-model="karshenasiArshad" class="iran-sans">{{ $t('Masters') }}</q-checkbox>
         </div>
       </div>
     </div>
@@ -25,24 +23,16 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import { ref, defineAsyncComponent } from "vue";
-export default {
-  components: {
-    AgeModal: defineAsyncComponent(() => import("./AgeModal.vue")),
-    MadrakModal: defineAsyncComponent(() => import("./MadrakModal.vue")),
-  },
-  setup() {
-    return {
-      diplom: ref(false),
-      zirdiplom: ref(false),
-      doktra: ref(false),
-      kardany: ref(false),
-      karshenasi: ref(false),
-      karshenasiArshad: ref(false),
-    };
-  },
-};
+const AgeModal = defineAsyncComponent(() => import("./AgeModal.vue"))
+const MadrakModal = defineAsyncComponent(() => import("./MadrakModal.vue"))
+const diplom = ref(false)
+const zirdiplom = ref(false)
+const doktra = ref(false)
+const kardany = ref(false)
+const karshenasi = ref(false)
+const karshenasiArshad = ref(false)
 </script>
-
-<style></style>
+<style>
+</style>

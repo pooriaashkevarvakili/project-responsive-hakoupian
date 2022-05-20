@@ -3,13 +3,8 @@
     <ModalDeskOne />
   </div>
 </template>
-
-<script>
-import { defineAsyncComponent} from "vue";
-export default{
-  components: {
-    ModalDeskOne: defineAsyncComponent(() =>import("./ModalDeskOne.vue"))
-  }
-}
+<script setup>
+import { defineAsyncComponent } from "vue";
+const ModalDeskOne = defineAsyncComponent(() => import("./ModalDeskOne.vue"))
 </script>
 

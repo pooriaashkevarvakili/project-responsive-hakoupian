@@ -4,12 +4,7 @@
       <div class="col">
         <div class="flex q-mt-lg q-mr-lg">
           <div>
-            <q-avatar
-              size="5em"
-              icon="fa fa-person "
-              color="black"
-              text-color="white"
-            />
+            <q-avatar size="5em" icon="fa fa-person " color="black" text-color="white" />
           </div>
           <div>
             <div class="q-mr-sm">
@@ -39,23 +34,17 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import { defineAsyncComponent } from "vue";
-
-export default {
-  components: {
-    DropdownRequirementApplicant: defineAsyncComponent(() =>
-      import("../ModalRequirementApplicant.vue")
-    ),
-    ConfirmationInterview: defineAsyncComponent(() =>
-      import("../ConfirmationInterview.vue")
-    ),
-    RejectTheApplicant: defineAsyncComponent(() =>
-      import("./RejectTheApplicant.vue")
-    ),
-  },
-  setup() {},
-};
+const DropdownRequirementApplicant = defineAsyncComponent(() =>
+  import("../ModalRequirementApplicant.vue")
+)
+const ConfirmationInterview = defineAsyncComponent(() =>
+  import("../ConfirmationInterview.vue")
+)
+const RejectTheApplicant = defineAsyncComponent(() =>
+  import("./RejectTheApplicant.vue")
+)
 </script>
-
-<style></style>
+<style>
+</style>

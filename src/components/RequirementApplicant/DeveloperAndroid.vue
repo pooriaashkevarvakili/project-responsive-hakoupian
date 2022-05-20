@@ -1,6 +1,6 @@
 <template>
   <div class="flex q-mt-xl justify-between">
-    <div class=" q-mr-sm text-subtitle2">{{$t('DeveloperAndroid')}}</div>
+    <div class=" q-mr-sm text-subtitle2">{{ $t('DeveloperAndroid') }}</div>
     <div class="flex">
       <ButtonDropdownPage />
       <img src="image3.jpg" class="q-mt-sm img" />
@@ -12,20 +12,13 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import { defineAsyncComponent, ref } from "vue";
-export default {
-  components: {
-    ButtonDropdownPage: defineAsyncComponent(() =>
-      import("./ButtonDropdownPage.vue")
-    ),
-  },
-  setup() {
-    return {
-      value: ref(true),
-    };
-  },
-};
+const ButtonDropdownPage = defineAsyncComponent(() =>
+  import("./ButtonDropdownPage.vue")
+)
+const value = ref(true)
 </script>
 
-<style></style>
+<style>
+</style>

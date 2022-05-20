@@ -1,6 +1,6 @@
 <template>
   <div class="q-pa-md">
-    <div class="q-gutter-y-md" >
+    <div class="q-gutter-y-md">
       <q-tabs v-model="tab" class="text-teal" align="left">
         <q-tab name="mails" :label="$t('AddIndividual')" />
       </q-tabs>
@@ -12,16 +12,8 @@
     </div>
   </div>
 </template>
-<script>
+<script setup>
 import { ref, defineAsyncComponent } from "vue";
-export default {
-  components: {
-    AddIndividual: defineAsyncComponent(() => import("./AddIndividual.vue")),
-  },
-  setup() {
-    return {
-      tab: ref("mails"),
-    };
-  },
-};
+const AddIndividual = defineAsyncComponent(() => import("./AddIndividual.vue"))
+const tab = ref("mails")
 </script>
