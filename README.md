@@ -25,4 +25,4 @@ See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-webpack/quas
 
 panel admin vue js quasar
 
-spa-6eq8433jg-pooriavakili.vercel.app/
+https://spa-6eq8433jg-pooriavakili.vercel.app/#/
